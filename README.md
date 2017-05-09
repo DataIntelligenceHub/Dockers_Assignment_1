@@ -35,6 +35,20 @@ You can run docker using following command
 docker run -it -p 8888:8888 hakd/python:latest
 ```
 
+## Running through Dockfile
+
+###Build Image
+
+```
+docker build -t hakd/python .
+```
+
+###Run Image
+
+```
+docker run -it -p 8888:8888 hakd/python:latest
+```
+
 ## Authors
 
 Hammad Ali Khan
