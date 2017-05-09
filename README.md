@@ -37,13 +37,13 @@ docker run -it -p 8888:8888 hakd/python:latest
 
 ## Running through Dockfile
 
-###Build Image
+### Build Image
 
 ```
 docker build -t hakd/python .
 ```
 
-###Run Image
+### Run Image
 
 ```
 docker run -it -p 8888:8888 hakd/python:latest
