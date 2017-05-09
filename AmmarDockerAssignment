@@ -11,3 +11,6 @@ To run my docker image:
 	*. docker stop <Container ID> ---> To stop the container id on which port is running. 
 4. After running the repository, open your browser and enter the following link:
 	https://localhost:8888/
+
+Following is the link to my repository on docker hub:
+https://hub.docker.com/r/ammaraamir/docker_assignment/
