@@ -38,4 +38,4 @@ docker run -it -p 8888:8888 hakd/python:latest
 ## Authors
 
 Hammad Ali Khan
-See also the list of [Hammad Docker Hub](https://hub.docker.com/u/hakd/) who participated in this project.
+See also the list of [Hammad Docker Hub](https://hub.docker.com/u/hakd/).
