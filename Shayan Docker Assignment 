@@ -1,0 +1,16 @@
+To run my docker image:
+1. To search for my repository:
+	docker search docker_assign
+2. To pull the repository:
+	docker pull shayanishaq/dockerimg:firstcommit
+***** Make sure that your port is open before running it. *****
+3. To run the repository:
+	docker run -d -p 8888:8888 shayanishaq/dockerimg:firstcommit
+   If error occurs, run the following commands:
+	*. docker ps   ---> To check containers.
+	*. docker stop <Container ID> ---> To stop the container id on which port is running. 
+4. After running the repository, open your browser and enter the following link:
+	https://localhost:8888/
+
+Following is the link to my repository on docker hub:
+https://hub.docker.com/r/shayanishaq/dockerimg/
