@@ -1,0 +1,19 @@
+Steps to Run Docker Image:
+1. To search repository:
+	docker search docker_assign
+2. To Pull The Repository:
+	docker pull aliejaz/dockerimage:firstcommit
+
+Note : Make sure that your port is open before running it.
+3. To Run The Repository:
+	docker run -d -p 8888:8888 aliejaz/dockerimage:firstcommit
+   If error occurs, run the following commands:
+	*. docker ps   ---> To check containers.
+	*. docker stop <Container ID> ---> To stop the container id on which port is running. 
+4. After running the repository, open your browser and enter the following link:
+	https://localhost:8888/
+
+
+Following is The Link :
+Docker Hub Repository
+https://hub.docker.com/r/aliejaz/dockerimage/
