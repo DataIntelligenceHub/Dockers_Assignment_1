@@ -1,0 +1,20 @@
+Steps to use Docker:
+
+1. To Search for my repository:
+	docker search zawar_assignment
+
+2. To pull: 
+	docker pull rashid110/rashid:Docker_Assignment
+
+	*open your port*
+
+3. To run the repository:
+	docker run -d -p 8888:8888 rashid110/rashid:Docker_Assignment
+	
+      	If error occurs, run the following commands:
+		docker ps   ---> To check containers.
+		docker stop <Container ID> ---> To stop the container id on which port is running.
+
+
+4. After running the repository, open your browser and enter the following link:
+	https://localhost:8888/
